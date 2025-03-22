@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-right: 5px;
+}
+    
+
+
+body {
+    display: grid;
+    background-image: url(./imagen_fondo.jpg);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+
+header {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+
+#Conoceme {
+    margin-top: 10px;
+    margin: 15px;
+}
+
+
+#fotoPerfil, #fotoVoleyNatac, #fotoSanlucar, #fotoMusica {
+    height: 170px;
+    width: 100px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+#Contacto {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#Contacto p {
+    margin: 10px;
+}
+
+#Contacto a {
+    margin-left: 10px;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    font-family: url(./Plante.ttf);
+}
+
+
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+
+section .SobreMi {
+    background-image: url(./fotoPerfil.jpeg);
+}
+
+
+section h2 {
+    color: #AB5FA5;
+}
+
+
+#proyectos img {
+    height: 190px;
+    width: 250px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+section ul {
+    margin: 20px;
+}
+
+
+section img {
+    height: 60px;
+    width: 70px;
+    margin: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 2px;
+    background-color: #92d5e4;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+
+nav ul li {
+    margin: 15px;
+}
+
+
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 50px;
+}
+
+
+
+main {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+
+figure {
+    text-align: center;
+    margin: 50px;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+
+hr{
+    background-color: black;
+    height: 1px;
+}
+
+
+footer {
+    color: #b28539;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+  
+footer form {
+    margin-bottom: 15px;
+}
+  
+footer input, footer textarea {
+    width: 90%;
+    padding: 10px;
+    margin: center;
+    border: 1px solid #b28539;
+    border-radius: 4px;
+}
+  
+footer button {
+    padding: 15px 20px;
+    background-color: #AB5FA5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer label {
+    display: block;
+}
+
+  
+footer .social-links {
+    margin-top: 20px;
+}
+
+
+.redessociales img {
+    height: 20px;
+    width: 20px;
+}
+
+
+aside {
+    background-color: white;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    color: #b28539;
+    font-size: 15px;
+}
+
+aside h2 {
+    margin-top: 10px;
+}
+
+aside a {
+    margin: 90px;
+}
+
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+
+
+.submit-btn:hover {
+    background: #650578;
+}
+
+
+
+
